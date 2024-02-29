@@ -1,0 +1,472 @@
+repo_name: 2lambda123/ConjugateGradients
+report_id: 95384341ffea0d73d991b5fce3147814
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:13:25+00:00'
+requested_by: p-sto
+provider: github
+branch: master
+detected_tools_count: 37
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients
+  detection_source: Repo Metadata
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 1.7.2
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: CUDA
+  description: It provides everything you need to develop GPU-accelerated applications
+  website_url: http://www.nvidia.com/object/cuda_home_new.html
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/2836/LUOWehvo_400x400.jpeg
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients
+  detection_source: Repo Metadata
+- name: IPython
+  description: A command shell for interactive computing in multiple programming languages
+  website_url: http://ipython.org/index.html
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Shells
+  image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.13.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: SciPy
+  description: Scientific Computing Tools for Python
+  website_url: http://www.scipy.org
+  version: 0.19.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/3303/scipyshiny_small.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients
+  detection_source: Repo Metadata
+- name: Pygments
+  description: Pygments is a syntax highlighting package written in Python
+  package_url: https://pypi.org/project/Pygments
+  version: 2.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19858/default_4d761b2257a1435539d6dc92346974d9f1d55c70.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+  vulnerabilities:
+  - name: Pygments vulnerable to Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2021-27291
+    cve_url: https://github.com/advisories/GHSA-pq64-v7f5-gqh8
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.7.4
+  - name: Infinite Loop in Pygments
+    cve_id: CVE-2021-20270
+    cve_url: https://github.com/advisories/GHSA-9w8r-397f-prfh
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.7.4
+  - name: Pygments vulnerable to ReDoS
+    cve_id: CVE-2022-40896
+    cve_url: https://github.com/advisories/GHSA-mrwq-x4v8-fh7p
+    detected_date: Jul 21
+    severity: moderate
+    first_patched: 2.15.0
+- name: astroid
+  description: An abstract syntax tree for Python with inference support
+  package_url: https://pypi.org/project/astroid
+  version: 1.5.3
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20125/default_63b818b0ea63c702db9131c12dd2fd2fad35ca3b.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/project/coverage
+  version: 4.4.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: decorator
+  description: Decorators for Humans
+  package_url: https://pypi.org/project/decorator
+  version: 4.0.11
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19911/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: isort
+  description: A Python utility / library to sort Python imports
+  package_url: https://pypi.org/project/isort
+  version: 4.2.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: jedi
+  description: An autocompletion tool for Python that can be used for text editors
+  package_url: https://pypi.org/project/jedi
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20260/default_9a53068260c70b2274df0967716480e7e3f74b0d.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: lazy-object-proxy
+  description: A fast and thorough lazy object proxy
+  package_url: https://pypi.org/project/lazy-object-proxy
+  version: 1.3.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20270/default_8197520bb021ab2bc2cb991350ef948366688c94.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: mccabe
+  description: McCabe checker, plugin for flake8
+  package_url: https://pypi.org/project/mccabe
+  version: 0.6.1
+  license: Saxpath
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20323/default_cafc15de82628e6c121e1ea9ce941c1410268b49.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: '0.530'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: pexpect
+  description: Pexpect allows easy control of interactive console applications
+  package_url: https://pypi.org/project/pexpect
+  version: 4.2.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20078/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: pickleshare
+  description: Tiny 'shelve'-like database with concurrency support
+  package_url: https://pypi.org/project/pickleshare
+  version: 0.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20603/default_705055e61b43e314c99bd16582ed1fac9638127e.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: prompt-toolkit
+  description: Library for building powerful interactive command lines in Python
+  package_url: https://pypi.org/project/prompt-toolkit
+  version: 1.0.14
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: ptyprocess
+  description: Run a subprocess in a pseudo terminal
+  package_url: https://pypi.org/project/ptyprocess
+  version: 0.5.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20391/default_ec7f908dc4ac3533950df7d8e371292c0bdc3812.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: py
+  description: Library with cross-python path
+  package_url: https://pypi.org/project/py
+  version: 1.4.34
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19962/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+  vulnerabilities:
+  - name: 'ReDoS in py library when used with subversion '
+    cve_id: CVE-2022-42969
+    cve_url: https://github.com/advisories/GHSA-w596-4wvx-j9j6
+    detected_date: Oct 18
+    severity: high
+    first_patched: 
+  - name: py vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2020-29651
+    cve_url: https://github.com/advisories/GHSA-hj5v-574p-mj7c
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.10.0
+- name: pyparsing
+  description: Python parsing module
+  package_url: https://pypi.org/project/pyparsing
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19881/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.6.0
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2017.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: simplegeneric
+  description: Simple generic functions
+  package_url: https://pypi.org/project/simplegeneric
+  version: 0.8.1
+  license: ZPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: traitlets
+  description: Traitlets Python config system
+  package_url: https://pypi.org/project/traitlets
+  version: 4.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20029/default_73018c8841403fdd7d8f629d056cba8f938c5589.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: typed-ast
+  description: A fork of Python 2 and 3 ast modules with type comment support
+  package_url: https://pypi.org/project/typed-ast
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20163/default_8822b1755ae0c97a622ebcb1aa9cafa328004f81.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: typing
+  description: Type Hints for Python
+  package_url: https://pypi.org/project/typing
+  version: 3.6.2
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19868/default_bd86f80ade48cfe191d5781a2efa0e66fa22163a.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: wcwidth
+  description: Measures number of Terminal column cells of wide-character codes
+  package_url: https://pypi.org/project/wcwidth
+  version: 0.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20026/default_77bb3e5ea95c1543fd636eba30e7257b80fbd4f6.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+- name: wrapt
+  description: Module for decorators, wrappers and monkey patching
+  package_url: https://pypi.org/project/wrapt
+  version: 1.10.11
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19946/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/2lambda123/ConjugateGradients/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
